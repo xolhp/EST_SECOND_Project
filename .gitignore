@@ -1,0 +1,18 @@
+# Mac system files (맥북 시스템 쓰레기 파일 방지)
+.DS_Store
+._*
+
+# Jupyter Notebook checkpoints (주피터 임시 파일 방지)
+.ipynb_checkpoints/
+
+# Python cache (파이썬 실행 캐시 방지)
+__pycache__/
+*.pyc
+
+# Local environment variables (비밀 키 보관용 파일 방지)
+.env
+
+# (선택) 용량이 너무 커서 깃허브 업로드 실패를 유발하는 데이터 파일들
+# 만약 100MB 넘는 대용량 데이터가 있다면 아래 주석(#)을 지워서 활성화하세요.
+# *.csv
+# *.zip
